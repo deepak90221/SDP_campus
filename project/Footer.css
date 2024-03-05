@@ -1,0 +1,138 @@
+/* Global link styles */
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #00f;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #00f, 0 0 70px #00f, 0 0 80px #00f, 0 0 100px #00f, 0 0 150px #00f;
+  }
+  
+  /* Footer container */
+  .footer-container {
+    background-color: #001f3f; /* Dark blue */
+    color: #fff;
+    padding: 2rem 0;
+  }
+  
+  /* Footer content wrapper */
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  /* Individual footer section */
+  .footer-section {
+    flex: 1 1 50%;
+    margin-bottom: 2rem;
+  }
+  
+  /* Footer headings */
+  .footer-heading {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #ffa500; /* Orange */
+  }
+  
+  /* Subscribe form */
+  .subscribe-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .subscribe-input {
+    width: 70%;
+    padding: 0.7rem;
+    font-size: 1rem;
+    border: 2px solid #ffa500; /* Orange border */
+    border-radius: 4px 0 0 4px;
+    margin-right: 0.5rem;
+    background-color: #001f3f; /* Dark blue */
+    color: #fff;
+  }
+  
+  .subscribe-input::placeholder {
+    color: #ccc; /* Light gray */
+  }
+  
+  .subscribe-button {
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    background-color: #ffa500; /* Orange */
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #ff4500; /* Orange Red */
+  }
+  
+  /* Footer links */
+  .footer-link {
+    font-size: 1.2rem;
+    position: relative;
+    color: white; /* Radium color */
+    transition: color 0.3s ease; /* Transition for color */
+  }
+  
+  .footer-link::before {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 2px; /* Thickness of the line */
+    background-color: #00ff00; /* Radium green */
+    opacity: 0;
+    transition: opacity 0.3s ease; /* Transition for opacity */
+  }
+  
+  .footer-link:hover::before {
+    opacity: 1; /* Show line on hover */
+  }
+  
+  .footer-link:hover {
+    color: rgb(22, 22, 188); /* Radium color */
+    text-shadow: 0 0 10px rgb(4, 147, 219), 0 0 20px rgb(10, 179, 222), 0 0 30px rgb(7, 175, 226), 0 0 40px rgb(12, 142, 241), 0 0 70px #ff00ff, 0 0 80px #ff00ff, 0 0 100px #ff00ff, 0 0 150px #ff00ff; /* Neon effect */
+  }
+  
+  
+  /* Social icons */
+  .social-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-icon {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: #ffa500; /* Orange */
+  }
+  
+  .social-icon:hover {
+    color: #ff4500; /* Orange Red */
+  }
+  
+  /* Footer bottom section */
+  .footer-bottom {
+    text-align: center;
+    color: #ccc; /* Light gray */
+  }
+  
+  .footer-bottom a {
+    color: #ffa500; /* Orange */
+  }
+  
+  .footer-bottom a:hover {
+    color: #ff4500; /* Orange Red */
+  }
+  

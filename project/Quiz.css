@@ -1,0 +1,79 @@
+.coding-exam-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  .question h3 {
+    color: #007bff;
+  }
+  
+  .question p {
+    font-size: 16px;
+  }
+  
+  .editor-container {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .code-editor {
+    width: 100%;
+    min-height: 200px;
+    padding: 10px;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    resize: none;
+  }
+  
+  .language-dropdown {
+    margin-bottom: 20px;
+  }
+  
+  .language-dropdown label {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .language-dropdown select {
+    padding: 8px 12px;
+    font-size: 16px;
+  }
+  
+  .timer {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #28a745;
+  }
+  
+  .submit-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .submit-btn:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
